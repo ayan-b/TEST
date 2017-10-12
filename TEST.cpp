@@ -37,14 +37,14 @@
     int main()
     {
         fastIO;
-        while (true)
+        while (true) // keep going until break action
         {
             ll n;
             fastscan(n);
-            if (n==42)
+            if (n==42) 
                 break;
             else
-                cout<<n<<"\n";
-        }
+                cout<<n<<"\n"; 
+        }  // int main with return value of an int value
     }
      
